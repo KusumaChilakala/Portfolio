@@ -70,7 +70,6 @@ body {
 
           <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#certificationss">Certifications</a></li>
-          <li class="nav-item"><a class="nav-link" href="#internships">Internships</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
         </ul>
@@ -78,7 +77,7 @@ body {
 
 
 
-        <a class="btn btn-pink ms-3" href="https://drive.google.com/file/d/1KCPG7TmDDtiBssaGdiFmAYOSthrY5f60/view?usp=drivesdk" download target="_blank"> RESUME</a>
+        <a class="btn btn-pink ms-3" href="https://drive.google.com/file/d/1xhLX7UxE_qDKdAjNGzNPpgYp_j8nFU_f/view?usp=drivesdk" download target="_blank"> RESUME</a>
       </div>
     </div>
   </nav>
@@ -109,7 +108,7 @@ body {
           <a href="https://www.codechef.com/users/kusumachilakal" target="_blank" class="btn btn-outline-light">
             <i class="bi bi-code-slash me-1"></i> CodeChef
           </a>
-          <a href="https://www.geeksforgeeks.org/user/kusumachildlz5/" target="_blank" class="btn btn-outline-success">
+          <a href="https://www.geeksforgeeks.org/profile/kusumachildlz5?tab=activity" target="_blank" class="btn btn-outline-success">
             <i class="bi bi-book me-1"></i> GFG
           </a>
           <a href="https://leetcode.com/u/kusumachilakala14/" target="_blank" class="btn btn-outline-warning">
@@ -187,40 +186,62 @@ body {
 
    <!-- Tab Buttons -->
 <div class="d-flex justify-content-center flex-wrap mb-4">
-  <button class="tab-btn active mx-2" onclick="showTab(event, 'coding')">Coding Languages</button>
-  <button class="tab-btn mx-2" onclick="showTab(event, 'frontend')">Frontend</button>
-  <button class="tab-btn mx-2" onclick="showTab(event, 'database')">Database</button>
+  <button class="tab-btn active mx-2" onclick="showTab(event, 'programming')">Programming Languages</button>
+  <button class="tab-btn mx-2" onclick="showTab(event, 'webdev')">Web Development</button>
+  <button class="tab-btn mx-2" onclick="showTab(event, 'technical')">Technical Skills</button>
+  <button class="tab-btn mx-2" onclick="showTab(event, 'softskills')">Soft Skills</button>
   <button class="tab-btn mx-2" onclick="showTab(event, 'tools')">Tools</button>
 </div>
 
-
-
     <!-- Tabs Content -->
-    <div id="coding" class="tab-content">
+    <div id="programming" class="tab-content">
       <div class="skill-grid">
-        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"><div>Python</div></div>
-        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"><div>Java</div></div>
         <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"><div>C</div></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"><div>Java</div></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"><div>Python</div></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"><div>SQL</div></div>
+      </div>
+    </div>
+
+    <div id="webdev" class="tab-content d-none">
+      <div class="skill-grid">
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"><div>HTML</div></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"><div>CSS</div></div>
         <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"><div>JavaScript</div></div>
       </div>
     </div>
 
-    <div id="frontend" class="tab-content d-none">
+    <div id="technical" class="tab-content d-none">
       <div class="skill-grid">
-        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"><div>HTML</div></div>
-        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"><div>CSS</div></div>
-        
-        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"><div>Bootstrap</div></div>
-       
+        <div class="skill-card">
+          <i class="bi bi-diagram-3 text-primary" style="font-size: 48px;"></i>
+          <div>Data Structures & Algorithms</div>
+        </div>
+        <div class="skill-card">
+          <i class="bi bi-database text-success" style="font-size: 48px;"></i>
+          <div>DBMS</div>
+        </div>
+        <div class="skill-card">
+          <i class="bi bi-router text-info" style="font-size: 48px;"></i>
+          <div>Computer Networks</div>
+        </div>
       </div>
     </div>
 
-   
-
-    <div id="database" class="tab-content d-none">
+    <div id="softskills" class="tab-content d-none">
       <div class="skill-grid">
-        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"><div>MySQL</div></div>
-        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"><div>POSTGRES SQL</div></div>
+        <div class="skill-card">
+          <i class="bi bi-lightbulb text-warning" style="font-size: 48px;"></i>
+          <div>Innovative Thinking</div>
+        </div>
+        <div class="skill-card">
+          <i class="bi bi-people text-primary" style="font-size: 48px;"></i>
+          <div>Team Work</div>
+        </div>
+        <div class="skill-card">
+          <i class="bi bi-chat-dots text-success" style="font-size: 48px;"></i>
+          <div>Communication Skills</div>
+        </div>
       </div>
     </div>
 
@@ -228,7 +249,22 @@ body {
       <div class="skill-grid">
         <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"><div>Git</div></div>
         <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><div>GitHub</div></div>
-        <div class="skill-card"><img src="https://img.icons8.com/color/48/chakra-ui.png"><div>Vs Code</div></div>
+        <div class="skill-card">
+          <i class="bi bi-code-square text-primary" style="font-size: 48px;"></i>
+          <div>VS Code</div>
+        </div>
+        <div class="skill-card">
+          <i class="bi bi-ethernet text-info" style="font-size: 48px;"></i>
+          <div>WireShark</div>
+        </div>
+        <div class="skill-card">
+          <i class="bi bi-shield-lock text-warning" style="font-size: 48px;"></i>
+          <div>Cryptool</div>
+        </div>
+        <div class="skill-card">
+          <i class="bi bi-terminal text-danger" style="font-size: 48px;"></i>
+          <div>Kali Linux</div>
+        </div>
       </div>
     </div>
   </div>
@@ -241,7 +277,7 @@ body {
       <!-- Item 1 -->
       <div class="timeline-item left">
         <div class="timeline-content shadow d-flex align-items-center gap-3">
-          <img src="https://img.icons8.com/color/48/graduation-cap.png" alt="B.Tech" width="40" />
+          <i class="bi bi-mortarboard-fill text-primary" style="font-size: 40px;"></i>
           <div>
             <h5 class="text-info fw-bold mb-1">B.Tech in Computer Science and Cyber Security</h5>
             <p class="mb-0">Shri Vishnu Engineering College for Women, Bhimavaram</p>
@@ -253,7 +289,7 @@ body {
       <!-- Item 2 -->
       <div class="timeline-item right">
         <div class="timeline-content shadow d-flex align-items-center gap-3">
-          <img src="https://img.icons8.com/?size=100&id=ppvLVm6WRMud&format=png&color=000000" alt="Intermediate" width="40" />
+          <i class="bi bi-book-fill text-success" style="font-size: 40px;"></i>
           <div>
             <h5 class="text-info fw-bold mb-1">Intermediate (MPC)</h5>
             <p class="mb-0">Aditya Junior College, Rajahmundry</p>
@@ -265,7 +301,7 @@ body {
       <!-- Item 3 -->
       <div class="timeline-item left">
         <div class="timeline-content shadow d-flex align-items-center gap-3">
-          <img src="https://img.icons8.com/color/48/school.png" alt="SSC" width="40" />
+          <i class="bi bi-building text-warning" style="font-size: 40px;"></i>
           <div>
             <h5 class="text-info fw-bold mb-1">SSC</h5>
             <p class="mb-0">Surya Deep English Modal School, Rajahmundry</p>
@@ -303,6 +339,8 @@ body {
           </div>
           <div class="card-footer bg-transparent border-0 d-flex justify-content-start">
             <a href="https://www.linkedin.com/posts/kusuma-chilakala_chess-ai-game-outsmart-the-machine-activity-7307777507313774592-cI3-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAExqnXsBHyVxkd3cXrnfjDuPXAmrKyv8V00" class="btn btn-outline-info btn-sm me-2" target="_blank">Live Demo</a>
+             <a href=" https://github.com/KusumaChilakala/Chess-Ai" class="btn btn-outline-info btn-sm" target="_blank">GitHub</a>
+           
           </div>
         </div>
       </div>
@@ -311,17 +349,40 @@ body {
         <div class="card project-card border-0 shadow-sm" style="background-color: #1b263b;">
           
           <div class="card-body">
-            <h5 class="card-title text-info">Image Puzzle Solver</h5>
+            <h5 class="card-title text-info">Dual Layer QR Web Application</h5>
             <p style="color:white">
-              Developed a responsive web-based Image Puzzle Game using HTML, CSS, and JavaScript.
-              Enabled users to select categories and images, then solve a 3x3 sliding puzzle within a timed challenge.
-              Focused on delivering an intuitive user experience with solvable shuffling logic and a polished UI.
+              Built a full-stack web application that generates and scans dual-layer QR codes containing both public and steganographically hidden messages.
+Implemented Least Significant Bit (LSB) steganography to embed hidden data while preserving QR code scannability.
+Designed RESTful APIs using Flask and integrated OpenCV-based QR detection for reliable scanning.
+Developed a mobile-responsive frontend with secure file handling and robust validation.
+Deployed the application to a Linux-based cloud platform (Render) with a production-ready configuration.
             </p>
             <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
           </div>
           <div class="card-footer bg-transparent border-0 d-flex justify-content-start gap-2">
-            <a href="#" class="btn btn-outline-info btn-sm" target="_blank">Live Demo</a>
-            <a href="https://kusumachilakala.github.io/Solve-puzzle/index.html" class="btn btn-outline-info btn-sm" target="_blank">Launch Game</a>
+            <a href="https://www.linkedin.com/posts/kusuma-chilakala_im-excited-to-share-my-new-project-activity-7349306795514851328-cLmq?utm_source=share&utm_medium=member_android&rcm=ACoAAExqnXsBHyVxkd3cXrnfjDuPXAmrKyv8V00" class="btn btn-outline-info btn-sm" target="_blank">Live Demo</a>
+            <a href="https://dual-layer-qr.onrender.com/" class="btn btn-outline-info btn-sm" target="_blank">Launch </a>
+            <a href="https://github.com/KusumaChilakala/dual-layer-qr" class="btn btn-outline-info btn-sm" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-6">
+        <div class="card project-card border-0 shadow-sm" style="background-color: #1b263b;">
+          
+          <div class="card-body">
+            <h5 class="card-title text-info">Phishing Website Detection</h5>
+            <p style="color:white">
+              Developed a machine learning-based system to detect phishing websites using various URL and content features.<br>
+              Implemented classification algorithms to identify malicious websites with high accuracy.<br>
+              Created a comprehensive dataset analysis and feature extraction pipeline for enhanced detection.
+            </p>
+            <p style="color:white"><strong>Tech:</strong> Python, Machine Learning</p>
+            <p style="color:white"><strong>Libraries:</strong> Scikit-learn, Pandas, NumPy</p>
+          </div>
+          <div class="card-footer bg-transparent border-0 d-flex justify-content-start">
+            <a href="https://github.com/KusumaChilakala/phishing-detection" class="btn btn-outline-info btn-sm" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
@@ -342,7 +403,7 @@ body {
           <div class="fw-bold">HCL Tech</div>
           <div class="small">Introduction to Networks and Operating Systems</div>
           <div class="text-muted small">2024</div>
-          <a href="https://drive.google.com/file/d/1GfF3mGr8aEiy6xrsjvTHNjKW87umNNyh/view?usp=sharing"
+          <a href="https://drive.google.com/file/d/1pKlA-O9ekLZQlKVl57JFNQejenxFXuxn/view?usp=drivesdk"
              class="btn btn-outline-primary btn-sm mt-2" target="_blank">
             View Certificate
           </a>
@@ -384,11 +445,10 @@ body {
       <div class="col-lg-6 col-md-6 col-sm-12">
         <div class="skill-card grid-card text-center p-4">
           <i class="bi bi-award-fill text-primary fs-2 mb-2"></i>
-          <div class="fw-bold">Cisco </div>
-          <div class="small">Smart Coder</div>
-          <div class="small">Introduction to Cyber Security</div>
+          <div class="fw-bold">GeeksforGeeks</div>
+          <div class="small">Data Structures and Algorithms</div>
           <div class="text-muted small">2024</div>
-           <a href="https://drive.google.com/file/d/1KTbLf80iPJ9AQwJ6t5KApHEa6EqL1Acn/view?usp=drivesdk"
+           <a href="https://drive.google.com/file/d/1Lo_0OwefcNwcZBuP4B0UbQJWflsisxl0/view?usp=drivesdk"
              class="btn btn-outline-primary btn-sm mt-2" target="_blank">
             View Certificate
           </a>
@@ -401,58 +461,6 @@ body {
   </div>
 </section>
 
-<section id="internships" class="section py-5 bg-light text-dark" data-aos="fade-up" data-aos-duration="1200">
-  <div class="container">
-    <h2 class="text-center fw-bold mb-4">Internships</h2>
-    <p class="text-center fst-italic text-muted mb-5">Hands-on experience gained through real-world projects and collaboration.</p>
-
-    <div class="row g-4">
-      <!-- Internship 1 -->
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <div class="skill-card grid-card text-center p-4 h-100">
-          <i class="bi bi-briefcase-fill text-primary fs-2 mb-2"></i>
-          <div class="fw-bold mb-1">Web Development</div>
-          <div class="small mb-1">CodSoft</div>
-          <div class="small mb-1">Virtual Internship</div>
-          <div class="text-muted small mb-2 "style="color: rgb(183, 207, 156)!important;">Mar 2025 – Apr 2025</div>
-          <p style="color:white">
-              Built responsive web projects using HTML, CSS, and JavaScript.
-Developed a Portfolio Landing Page showcasing skills, projects, and contact details. Created a Basic Calculator
-performing standard arithmetic operations. Gained hands-on experience in frontend development and debugging.
-Skills: HTML, CSS, JavaScript, UI/UX, Problem-Solving
-            </p>
-          <a href="https://drive.google.com/file/d/17M7AS7PnR2axr3zmhezIvpVYwzNVxFo_/view?usp=sharing"
-             class="btn btn-outline-primary btn-sm mt-2" target="_blank">
-            View Certificate
-          </a>
-        </div>
-      </div>
-
-      <!-- Internship 2 -->
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <div class="skill-card grid-card text-center p-4 h-100">
-          <i class="bi bi-briefcase-fill text-primary fs-2 mb-2"></i>
-          <div class="fw-bold mb-1">Java Full Stack Development Intern</div>
-          <div class="small mb-1">AICTE</div>
-          <div class="small mb-1">Virtual Internship</div>
-          <div class="text-muted small mb-2" style="color: rgb(183, 207, 156)!important;">Jan 2025 – Mar 2025</div>
-         <p style="color:white">
-      Completed a virtual internship focusing on Full Stack Web Development using Java. Gained hands-on experience in building responsive web applications using technologies like HTML, CSS, JavaScript, Spring Boot, and MySQL. Worked on integrating front-end with RESTful APIs and followed MVC architecture. Enhanced skills in object-oriented programming and agile development practices.
-    </p>
-          <a href="https://drive.google.com/file/d/17MfW9wRGGabiQ-Ep3x8CiVRH_vNw70mY/view?usp=sharing"
-             class="btn btn-outline-primary btn-sm mt-2" target="_blank">
-            View Certificate
-          </a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-
-
 <section id="contact" data-aos ="zoom-in"class="section bg-light text-dark text-center;">
   <div class="container">
     <h2 class="text-center fw-bold mb-5">Contact Me</h2>
@@ -462,24 +470,21 @@ Skills: HTML, CSS, JavaScript, UI/UX, Problem-Solving
       <div class="col-md-5 mb-4 mb-md-0">
         <ul class="list-unstyled fs-5">
           <li class="mb-3 d-flex align-items-center">
-            <img src="https://img.icons8.com/ios-filled/30/00bcd4/email-open.png" alt="email" class="me-3"/>
+            <i class="bi bi-envelope-fill text-info me-3" style="font-size: 30px;"></i>
             <a href="mailto:kusuma@example.com" class="text-white text-decoration-none">kusumachilakala467@example.com</a>
           </li>
           <li class="mb-3 d-flex align-items-center">
-            <img src="https://img.icons8.com/ios-filled/30/00bcd4/phone.png" alt="phone" class="me-3"/>
+            <i class="bi bi-telephone-fill text-info me-3" style="font-size: 30px;"></i>
             <a href="tel:+91 9014728267" class="text-white text-decoration-none">Call </a>
           </li>
           <li class="mb-3 d-flex align-items-center">
-            <img src="https://img.icons8.com/ios-filled/30/00bcd4/linkedin.png" alt="linkedin" class="me-3"/>
+            <i class="bi bi-linkedin text-info me-3" style="font-size: 30px;"></i>
             <a href="https://www.linkedin.com/in/kusuma-chilakala" target="_blank" class="text-white text-decoration-none">LinkedIn Profile</a>
           </li>
           <li class="mb-3 d-flex align-items-center">
-  <img src="https://img.icons8.com/ios-filled/30/00bcd4/github.png" alt="github" class="me-3"/>
-  <a href="https://github.com/KusumaChilakala" target="_blank" class="text-white text-decoration-none">GitHub Profile</a>
-</li>
-
-
-
+            <i class="bi bi-github text-info me-3" style="font-size: 30px;"></i>
+            <a href="https://github.com/KusumaChilakala" target="_blank" class="text-white text-decoration-none">GitHub Profile</a>
+          </li>
         </ul>
       </div>
 
